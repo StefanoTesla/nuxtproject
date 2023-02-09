@@ -1,7 +1,7 @@
 <script setup>
 const route = useRoute()
 const {data: wines } = await useFetch('http://localhost:8080/store-api/public/api/v1/wines')
-console.log(route.path)
+
 </script>
 
 <template>

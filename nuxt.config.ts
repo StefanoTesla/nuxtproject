@@ -3,12 +3,12 @@ export default defineNuxtConfig({
   pages:true,
 
   css: [
-    '@/assets/css/style.css'
+    '@/assets/style.css'
   ],
 
-    modules: [
-        ['@nuxtjs/i18n'],
-    ],
+    modules:  [
+                '@nuxtjs/i18n',
+              ],
         i18n: {
             strategy: 'prefix_except_default',
             defaultLocale: 'it',
@@ -31,13 +31,12 @@ export default defineNuxtConfig({
                     it: '/vini'
                 },
                 'vini/[slug]': {
-                  en: '/wines/:slug',
-                  it: '/vini/:slug'
+                  en: '/wines/[slug]',
+                  it: '/vini/[slug]'
               },
             },
             lazy: false,
             langDir: 'locales',
         },
-    
     
 })

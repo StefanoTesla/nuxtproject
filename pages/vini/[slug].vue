@@ -10,13 +10,12 @@ if (!wine.value) {
 
 
 <template>
-    
     <section class="main_section">
         <div class="data_title"><h1>{{ wine.name }}</h1></div>
         <div class="data_caption container_margin">una sacco di testo vkdkdksks</div>
         <div class="container_margin"><h2>Scheda Tecnica</h2></div>
-        <div class="flex_container">
-            <div>
+        <div class="grid_container">
+            <div class="grid_column">
                 <ul class="sc_list">
                     <li><b>{{ t('schedaTecnica.nomeVino') }}</b>: {{ wine.name }}</li>
                     <li><b>{{ t('schedaTecnica.denominazione') }}</b>: Indicazione Geografica Tipica Toscana</li>
@@ -32,11 +31,76 @@ if (!wine.value) {
                     <li><b>{{ t('schedaTecnica.alcol') }}</b>: 12,5 %Vol</li>
                 </ul>
             </div>
-            <div><img class="sc_bottle_image" src="https://via.placeholder.com/150"></div>
+            <div class="grid_column"><img class="sc_bottle_image" src="https://via.placeholder.com/150"></div>
         </div>
         <div class="sc_links">
             <div><a class="button_orange" href="/">ACQUISTA</a></div>
             <div><a class="button_orange">SCHEDA TECNICA</a></div>
         </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        <div class="sc_links">
+            <div><a class="button_orange" href="/">ACQUISTA</a></div>
+            <div><a class="button_orange">SCHEDA TECNICA</a></div>
+        </div>
+        
     </section>
 </template>

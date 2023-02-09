@@ -9,11 +9,14 @@
   },
   "devDependencies": {
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
-    "nuxt": "3.0.0",
-    "@volar-plugins/vetur": "latest"
+    "@volar-plugins/vetur": "latest",
+    "nuxt": "^3.1.1"
   },
   "dependencies": {
     "@volar-plugins/vetur": "latest",
     "vue-router": "^4.1.6"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
