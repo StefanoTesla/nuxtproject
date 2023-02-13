@@ -2,7 +2,7 @@
 const { t } = useI18n()
 const route = useRoute()
 
-const {data: wine } = await useFetch(`http://localhost:8080/store-api/public/api/v1/wines/${route.params.slug}`)
+const {data: wine } = await useFetch(`http://localhost:80/store-api/public/api/v1/wines/${route.params.slug}`)
 if (!wine.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
 }
